@@ -10,6 +10,9 @@
   /* TYPOGRAPHY */
   --font-primary: "Open Sans", sans-serif;
   --font-secondary: "Poppins", sans-serif;
+
+  /* SHADOW */
+  --box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
 }
 
 *,

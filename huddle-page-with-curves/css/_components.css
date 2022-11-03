@@ -26,4 +26,5 @@
   border-radius: 3rem;
   background-color: var(--color-primary-1);
   color: var(--color-neutral-2);
+  box-shadow: var(--box-shadow);
 }
