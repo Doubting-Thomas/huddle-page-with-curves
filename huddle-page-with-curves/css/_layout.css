@@ -74,10 +74,6 @@
   align-self: center;
 }
 
-.section-features {
-  padding: 10rem;
-}
-
 .features {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -88,7 +84,6 @@
 
 .first-feature {
   background-image: url(../images/bg-section-top-desktop-1.svg);
-  /* background-image: url(../images/bg-section-top-desktop-2.svg); */
   background-repeat: no-repeat;
   background-position: top;
 }
@@ -128,9 +123,11 @@
   column-gap: 2rem;
 
   opacity: 0.8;
+}
 
-  /* background-image: url(../images/bg-footer-top-desktop.svg);
-  background-repeat: no-repeat; */
+.footer-logo {
+  filter: brightness(1000%) saturate(0) contrast(1000%) invert(0);
+  max-width: 70%;
 }
 
 .contact-box {
@@ -195,5 +192,4 @@
   height: 4rem;
   width: 4rem;
   display: block;
-  outline: #fff;
 }
