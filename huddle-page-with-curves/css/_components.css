@@ -27,4 +27,15 @@
   background-color: var(--color-primary-1);
   color: var(--color-neutral-2);
   box-shadow: var(--box-shadow);
+  font-weight: 700;
+  font-family: inherit;
+}
+
+.btn--footer {
+  padding: 1rem 3rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--color-primary-1);
+  color: var(--color-neutral-2);
+  font-family: inherit;
 }

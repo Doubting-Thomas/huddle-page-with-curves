@@ -39,7 +39,3 @@ For the social icons, you can use a font icon library. Some suggestions can be f
 - [Font Awesome](https://fontawesome.com/)
 - [IcoMoon](https://icomoon.io/)
 - [Ionicons](https://ionicons.com/)
-
-facebook: <ion-icon name="logo-facebook"></ion-icon>
-twitter: <ion-icon name="logo-twitter"></ion-icon>
-instagram: <ion-icon name="logo-instagram"></ion-icon>
