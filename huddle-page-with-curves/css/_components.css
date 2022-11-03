@@ -1,0 +1,29 @@
+.btn {
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.btn:active {
+  transform: scale(1);
+}
+
+.btn--nav {
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  color: var(--color-primary-2);
+  border-color: var(--color-primary-2);
+  background-color: #fff;
+}
+
+.btn--hero {
+  padding: 2rem 7rem;
+  border: none;
+  border-radius: 3rem;
+  background-color: var(--color-primary-1);
+  color: var(--color-neutral-2);
+}

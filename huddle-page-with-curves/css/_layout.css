@@ -1,0 +1,50 @@
+.nav-container {
+  padding: 5rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header-logo {
+  width: 40%;
+}
+
+.section-hero {
+  padding: 15rem;
+  text-align: center;
+  color: var(--color-neutral-1);
+  transition: all 0.3s;
+  animation: moveInBottom 0.8s;
+}
+
+.heading-main {
+  font-size: 4rem;
+  font-family: var(--font-secondary);
+  font-weight: 700;
+}
+
+.text-description {
+  font-weight: 700;
+}
+
+.hero-image {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(-5rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
